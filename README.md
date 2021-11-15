@@ -1,1 +1,1 @@
-Sistemas para visualização de temperaturas de Aeroportos
+Sistema para visualização de temperaturas de Aeroportos
