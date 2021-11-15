@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    <header>
+      <h1>Aeroportos</h1>
+      <img src="http://4.bp.blogspot.com/-0B1MRZKsLW0/U3wAYnIcMdI/AAAAAAAAHRA/gYdYAdWKqA4/s1600/airplane+2.gif" alt="">
+    </header>
+
+    <nav>
+        <a href="index"> <button>Início</button> </a>
+        <a href="lista"> <button>Listar</button> </a>
+        <a href="insere"> <button>Inserir</button> </a>
+        <a href="remove"> <button>Remover</button> </a>
+        <a href="pesquisa"> <button>Pesquisa</button> </a>
+    </nav>
+
+    <section class="lista">
+        <h1>Aeroportos Cadastrados</h1>
+
+        <ul>
+            <% array.forEach(function(item){ %>
+                <li>Aeroporto: <%= item.aeroporto %> - Cidade: <%= item.cidade %> </li>	
+            <%})%>
+        </ul>
+    </section>
+
+  </body>
+</html>

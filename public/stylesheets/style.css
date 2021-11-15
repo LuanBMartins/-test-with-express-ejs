@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(37, 0, 122);
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 18, 26);
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(0, 18, 26);
+  height: 50px;
+}
+
+button {
+  font-style: italic;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  padding: 5px 10px 5px 10px;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(252, 252, 252);
+  text-align: center;
+}
+img {
+  margin-bottom: 10px;
+  width: 180px;
+  border-radius: 10px;
+}
+
+a {
+  margin: 5px;
+}
+
+.input {
+  margin: 6px;
+  
+}
+
+.lista,
+.remove,
+.insere {
+  color: white;
+  text-align: center;
+  background-color: rgb(0, 18, 26);
+}
+
+.lista {
+  text-align: start;
+}
